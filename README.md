@@ -1,0 +1,2 @@
+# konexio
+blog for association
