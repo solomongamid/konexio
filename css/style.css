@@ -1,0 +1,222 @@
+body{
+  background-color: rgb(28, 105, 134);
+}
+.artc{
+        padding: 30px;
+      }
+
+/*  Start  container-fluid  */
+.cont{
+  color: #FFF;
+  height: 570px;
+  background-image: url(../images/cods.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+/*  End  container-fluid  */
+
+
+ /*  Start about  */
+ .about{
+   color: #000;
+   margin-top: 20px;
+ }
+ .about h1{
+  color: rgb(28, 105, 134);
+   margin-bottom: 20px;
+ font-size: 40px;
+ text-align: center;
+ }
+ .about p{
+ font-size: 20px;
+ }
+ /*  End  about  */
+ /*  Start  main-act  */
+ .main-act{
+   position: relative;
+   text-align: center;
+   padding: 40px 0;
+   margin: 20px 0;
+ }
+ .main-act  h3{
+    color: rgb(13, 44, 73);
+   font-size: 30px;
+   text-align: center;
+ }
+ .main-act  h1{
+  color: rgb(28, 105, 134);
+   font-size: 40px;
+   margin-bottom: 20px;
+   text-align: center;
+ }
+ .main-act .slid{
+   background-color:#e6f5ff;
+   position: relative;
+   padding-top: 10px;
+   margin-top: 12px;
+   margin-bottom: 20px;
+ }
+ .main-act .slid img{
+   height: 600px;
+   width: 100%;
+ }
+ .main-act p{
+   font-size: 20px;
+   line-height: normal;
+   padding-top: 20px;
+   margin-top: 20px;
+ }
+ .main-act .slid >div{
+   display: none;
+ }
+ .main-act .slider .act{
+   display: block;
+   width: 100%;
+   height: 100%;
+ }
+ /*  End  main-act  */
+ /*!--Start Tean  page --*/
+ .our-team{
+   /*background-color: #85a3e0;/*/
+   background-image: url(../images/btm.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+ .our-team .team{
+   color: #FFF;
+   background-color: rgba(2,2,2, 0.7);
+   padding-top: 40px;
+   padding-bottom: 40px;
+ }
+ .our-team h1{
+   margin-bottom: 50px;
+ }
+ .our-team .perso-info{
+   margin-bottom: 40px;
+ }
+ /*!--End Team  page --*/
+
+ /*!--Start Partners  page --*/
+ .our-partners{
+   background-image: url(../images/team.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+ .our-partners h1{
+   text-align: center;
+     margin-bottom: 50px;
+ }
+ .our-partners .Partners{
+   color: #FFF;
+   background-color: rgba(2,2,2, 0.5);
+   padding-top: 40px;
+   padding-bottom: 40px;
+ }
+
+ /*!--End TPartners  page --*/
+
+  /*  End  our team  */
+
+/*  Start  Testim  */
+.testim{
+  background-image: url(../images/ke.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 300px;
+  position: relative;
+  text-align: center;
+  padding: 60px 0;
+  margin: 30px 0;
+}
+.testim h2{
+  font-size: 40px;
+}
+.testim q{
+  font-size: 25px;
+  line-height: normal;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+.testim p{
+  font-size: 40px;
+  line-height: normal;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+.testim .slider >div{
+  display: none;
+}
+.testim .slider .active{
+  display: block;
+}
+.testim .te-overlay{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  color: #ccd9ff;
+  background: rgba(0, 0, 0, 0.3);
+}
+/*  End  Testim  */
+/*  Start  our scroll buttom  */
+#go-top{
+  width: 60px;
+  height: 60px;
+border-radius: 55%;
+  background-color: #3333ff;
+  color:#d9d9d9;
+  text-align: center;
+  right: 15px;
+  bottom: 8px;
+  position: fixed;
+  z-index: 9999;
+  display: none;
+  cursor: pointer;
+}
+#go-top:hover {
+  background-color:#8000ff;
+}
+#go-top.show {
+}
+#go-top i.fa {
+  font-size: 40px;
+}
+
+/*  End  our scroll buttom  */
+/*  Start  contact  */
+.conta{
+background-color: rgb(141, 202, 211);
+  color:#000;
+  text-align: center;
+  right: 15px;
+  bottom: 8px;
+  z-index: 9999;
+}
+.conta p{
+
+}
+/*  End  contact  */
+
+/*  Start  our main lists  */
+/*  End  our main lists  */
+/*  Start  media  */
+.media{
+  color: #66e0ff;
+  height: 60px;
+  text-align: center;
+}
+.media i{
+  padding-top: 12px;
+font-size: 40px;
+}
+/*  End media  */
+footer{
+  background-color: rgb(55, 58, 60);
+  color: rgb(172, 48, 47);
+}

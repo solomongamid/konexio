@@ -1,0 +1,22 @@
+
+
+ body{
+     padding: 30px;
+     background-image: url(../images/codd.jpg);
+     background-size: cover;   }   
+ h1{
+   color:rgb(152, 210, 250);
+        }
+ h5{
+   color:rgb(152, 210, 250);
+        }
+ .mdl-layout {
+   align-items: center;
+  justify-content: center;
+}
+.mdl-layout__content {
+   padding: 24px;
+   flex: none;
+}
+ 
+   
