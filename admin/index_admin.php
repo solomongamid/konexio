@@ -216,31 +216,35 @@
         <!--End Button scrollButtom -->
       
       <!--Start Contact Us  page -->
-      <div class="conta">
-        <div class="container" id="contact">
+      <div class="container-fluid text-center conta" id="contact">
+      <div class="row">
+        <div class="col-sm-6 ">
           
-          <h2>Call for Volunteers</h2>
-          <p>
+          <h3>Call for Volunteers</h3>
+          <h4>
           	We are currently looking for volunteers to join our efforts!
-          </p>
+          </h4>
           <h3>Guest speakers and instructors</h3>
-          <p>
+          <h4>
           	Are you passionate about web development? Do you have coding projects or work as a developer? Come and share your experiences as a guest speaker! 
             
-          </p>
+          </4>
           <h3>Partnership building and fund development</h3>
-          <p>
+          <h4>
           	We need help with workshop coordination, funding efforts, and community partnership building
             Fluency in French is a plus, but good communication skills in English and enthusiasm for the cause are all that’s required.<br>
             Please fill out the questionnaire (this is a link to a google form) in the link provided <a href="https://docs.google.com/forms/d/e/1FAIpQLScSpKsx1AmEYzg3KAo_m5bkoGH8K06SeQBoxE5yckpoz8GLQQ/viewform"> here </a>, and we will follow up with you for more details!
-          </p>
+          </h4>
+          </div>
+          <div class="col-sm-6">
           <h2>Contact Us</h2>
-          <form action="index.php" method="post" class="form-group">
+          <form class="form-group" name="contactform" method="post" action="https://formspree.io/konexionparis@gmail.com">
             <input type="text" name="name" value="" placeholder="write your name"><br>
             <input type="email" name="email" value="" placeholder="write your E-mail"><br>
             <textarea name="message" rows="8" cols="40"></textarea><br>
             <input type="submit" name="name" value="send">
           </form>
+        </div>
         </div>
       </div>
       <!--End Contact Us  page -->

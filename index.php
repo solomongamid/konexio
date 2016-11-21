@@ -14,6 +14,7 @@
   <body>
     <!--Start first page -->
     <div class="cont">
+          <h1 align="center"> KONEXIO </h1>
           <h2 align="center">Connecting the world together through code</h2>
           <h4 align="center">Welcoming refugees into the community through tech</h4>
           <img src="images/backg.jpg" width="100" height="100" alt="logo" class="img-responsive center-block"/>
@@ -21,7 +22,7 @@
       <!--End first page -->
     <!--Start list  page -->
      <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
+  <div id="scrollTo" class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" >Konexio</a>
     </div>
@@ -30,7 +31,7 @@
       <li><a href="#">About Konexio</a></li>
       <li><a href="#team" >Team & partners</a></li>
       <li><a href="#main-act">Main Activities</a></li>
-      <li><a href="article.php">Articles</a></li>
+      <li><a href="admin/article.php">Articles</a></li>
       <li><a href="#contact">Contact</a></li>
       <li><a href="#testi-m">Testimonial </a></li>
     </ul>
@@ -111,7 +112,7 @@
                   <img class="img-circle" src="images/mardi.jpg" alt="Elmardi"  width="150" height="150"/>
                   <h4> Elmardi YAHIA</h4>
                   <p>
-                    Developer web php experiences and skills technics in programming languages with an enough background about computer networks
+                    Web developer with experience in PHP and technical skills in programming languages with a background in computer networks
                   </p>
                   <a href="#"><i class="fa fa-github-square fa-3x"></i></a>
                   <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
@@ -125,9 +126,8 @@
                   <p>
                     Web developer with experience in PHP and technical skills in programming languages with specialization in back-end 
                   </p>
-                  <a href="#"><i class="fa fa-github-square fa-3x"></i></a>
-                  <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
-                  <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
+                  <a href="https://github.com/solomongamid"><i class="fa fa-github-square fa-3x"></i></a>
+                  <a href="https://www.linkedin.com/in/suliman-adul-525925118"><i class="fa fa-linkedin-square fa-3x"></i></a>
                 </div>
               </div>
             </div>
@@ -140,9 +140,8 @@
                    Dustin is a software engineer and web development instructor. He's taught hundreds of non-technical students 
                    technical topics on web development. From Texas, he now lives in Paris.
                   </p>
-                  <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
-                  <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
-                  <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
+                  <a href="https://www.linkedin.com/in/dustincoates"><i class="fa fa-linkedin-square fa-3x"></i></a>
+                  <a href="https://github.com/dustincoates"><i class="fa fa-github-square fa-3x"></i></a>
                 </div>
               </div>
               <div class="col-xs-4">
@@ -152,9 +151,7 @@
                   <p>
                    While currently studying microbiology, Elisabeth's interests are far-reaching. She enjoys coding and meeting new people, and seeks to be involved in her community and to extend educational opportunities to those everyone. She is fluent in English and French. In her free time, she enjoys dancing, jogging, and painting.
                           </p>
-                  <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
-                  <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
-                  <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
+                  <a href="https://www.linkedin.com/in/elisabeth-hansen-56b491b9"><i class="fa fa-linkedin-square fa-3x"></i></a>
                 </div>
               </div>
               <div class="col-xs-4">
@@ -164,9 +161,7 @@
                   <p>
                   Megan has a background in economics, mathematics, and Italian and is interested in the ways in which public policy and nonprofit organizations can benefit economic well-being. She has experience in HTML/CSS coding and programming for statistical analysis. In her free time, she loves reading, traveling, and exploring the outdoors.
                   </p>
-                  <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
-                  <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
-                  <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
+                  <a href="https://www.linkedin.com/in/angellmegan"><i class="fa fa-linkedin-square fa-3x"></i></a>
                 </div>
               </div>
             </div>
@@ -215,30 +210,35 @@
         <!--End Button scrollButtom -->
       <hr>
       <!--Start Contact Us  page -->
-      <div class="conta">
-        <div class="container" id="contact">
-        <h2>Call for Volunteers</h2>
-          <p>
+      <div class="container-fluid text-center conta" id="contact">
+      <div class="row">
+        <div class="col-sm-6 ">
+          
+          <h3>Call for Volunteers</h3>
+          <h4>
             We are currently looking for volunteers to join our efforts!
-          </p>
+          </h4>
           <h3>Guest speakers and instructors</h3>
-          <p>
+          <h4>
             Are you passionate about web development? Do you have coding projects or work as a developer? Come and share your experiences as a guest speaker! 
             
-          </p>
+          </4>
           <h3>Partnership building and fund development</h3>
-          <p>
+          <h4>
             We need help with workshop coordination, funding efforts, and community partnership building
             Fluency in French is a plus, but good communication skills in English and enthusiasm for the cause are all that’s required.<br>
             Please fill out the questionnaire (this is a link to a google form) in the link provided <a href="https://docs.google.com/forms/d/e/1FAIpQLScSpKsx1AmEYzg3KAo_m5bkoGH8K06SeQBoxE5yckpoz8GLQQ/viewform"> here </a>, and we will follow up with you for more details!
-          </p>
-          <h3>Contact Us</h3>
-          <form action="index.php" method="post" class="form-group">
+          </h4>
+          </div>
+          <div class="col-sm-6">
+          <h2>Contact Us</h2>
+          <form class="form-group" name="contactform" method="post" action="https://formspree.io/konexionparis@gmail.com">
             <input type="text" name="name" value="" placeholder="write your name"><br>
             <input type="email" name="email" value="" placeholder="write your E-mail"><br>
             <textarea name="message" rows="8" cols="40"></textarea><br>
             <input type="submit" name="name" value="send">
           </form>
+        </div>
         </div>
       </div>
       <!--End Contact Us  page -->
@@ -247,7 +247,7 @@
       <div id="testi-m" class="testim">
       <div class="te-overlay">
         <div class="container">
-          <h2><u>What say our learners</u></h2>
+          <h2><u>Testimonials</u></h2>
         <div class="slider">
           <div class="active">
             <q cite="Elmardi">This really great idea to this kind of project that help peoples to discover the coding in simple way!</q><br>

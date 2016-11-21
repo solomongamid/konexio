@@ -12,14 +12,11 @@ download all the folders and files and  you will want to install a web server, s
 
 After you install all this programes you can create the database like:
 
--- Database: `konexion`
---
+- Database: `konexion`
 
--- --------------------------------------------------------
 
---
--- Table structure for table `article`
---
+- Table structure for table `article`
+
 
 CREATE TABLE IF NOT EXISTS `article` (
   `id` int(100) NOT NULL AUTO_INCREMENT,
@@ -28,8 +25,8 @@ CREATE TABLE IF NOT EXISTS `article` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=26 ;
 
--- Table structure for table `login`
---
+- Table structure for table `login`
+
 
 CREATE TABLE IF NOT EXISTS `login` (
   `id` int(100) NOT NULL AUTO_INCREMENT,

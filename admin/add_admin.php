@@ -1,4 +1,30 @@
 
+ 
+   <?php
+    include 'connect.php';
+      // define variables and set to empty values
+     
+    
+      // email and password sent from form 
+      
+      $email = $conn->real_escape_string($_POST['email']);
+      $password = $conn->real_escape_string($_POST['password']); 
+
+      // check if e-mail address is well-formed and the fields are not empty
+      if($password !='' && filter_var($email, FILTER_VALIDATE_EMAIL)){
+      $sql = "INSERT INTO login (email,password) VALUES ('$email' ,'$password')";
+      
+      if ($conn->query($sql) === TRUE) {
+    $error = "New record created successfully";
+
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+}
+}else{
+   $error = "Email and password are required";
+}
+ ?>
+
  <!DOCTYPE html>
  <html>
  <head>
@@ -11,51 +37,7 @@
  </head>
  <body>
 
-   <?php
-    include 'connect.php';
-      // define variables and set to empty values
-      $passErr = $emailErr = "";
-      $password = $email = "";
-
-      if ($_SERVER["REQUEST_METHOD"] == "POST") {
-          if (empty($_POST["password"])) {
-            $nameErr = "password is required";
-          } else {
-            $password = test_input($_POST["password"]);
-            // check if name only contains letters and whitespace
-            if (!preg_match("/^[a-zA-Z ]*$/",$password)) {
-              $passErr = "Only letters and white space allowed";
-            }
-          }
-          
-          if (empty($_POST["email"])) {
-            $emailErr = "Email is required";
-          } else {
-            $email = test_input($_POST["email"]);
-            // check if e-mail address is well-formed
-            if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-              $emailErr = "Invalid email format";
-            }
-          }
-        
-    
-      // email and password sent from form 
-      
-      $email = $conn->real_escape_string($_POST['email']);
-      $password = $conn->real_escape_string($_POST['password']); 
-
-      $sql = "INSERT INTO login (email,password) VALUES ('$email' ,'$password')";
-      
-      if ($conn->query($sql) === TRUE) {
-    $error = "New record created successfully";
-
-} else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
-}
-
- ?>
-
-  <nav class="navbar navbar-inverse">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="../index.php">Konexio</a>
@@ -98,6 +80,8 @@
       </div>
      </main>
    </div>
+
+
  
  </body>
  </html>
