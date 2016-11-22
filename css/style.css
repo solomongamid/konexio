@@ -102,23 +102,32 @@ body{
  /*!--End Team  page --*/
 
  /*!--Start Partners  page --*/
- .our-partners{
-   background-image: url(../images/team.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
- }
- .our-partners h1{
-   text-align: center;
-     margin-bottom: 50px;
- }
- .our-partners .Partners{
-   color: #FFF;
-   background-color: rgba(2,2,2, 0.5);
-   padding-top: 40px;
-   padding-bottom: 40px;
- }
+  .our-partners{
+    background-image: url(../images/team.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .par-img {
+ width: 500px;
+ height: 300px;
+ padding-left: 50px
+  }
+  .par-img img{
+    width: 94%;;
+    height: 94%;
+  }
+  .our-partners h1{
+    text-align: center;
+      margin-bottom: 50px;
+  }
+  .our-partners .Partners{
+    color: #FFF;
+    background-color: rgba(2,2,2, 0.5);
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 
- /*!--End TPartners  page --*/
+  /*!--End Partners  page --*/
 
   /*  End  our team  */
 
@@ -210,5 +219,12 @@ font-size: 40px;
 /*  End media  */
 footer{
   background-color: rgb(55, 58, 60);
-  color: rgb(172, 48, 47);
+  padding-bottom: 0;
+  margin-bottom: -65px;
+  color: #FFF;
+max-height: 80px;
+}
+footer b{
+  padding-top: 8px;
+  margin-bottom: 12px;
 }

@@ -20,24 +20,25 @@
           <img src="images/backg.jpg" width="100" height="100" alt="logo" class="img-responsive center-block"/>
         </div>
       <!--End first page -->
-    <!--Start list  page -->
-     <nav class="navbar navbar-inverse">
-  <div id="scrollTo" class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" >Konexio</a>
-    </div>
-    <ul class="nav navbar-nav" id="drop-nav">
-      <li class="active"><a href="index.php">Home</a></li>
-      <li><a href="#">About Konexio</a></li>
-      <li><a href="#team" >Team & partners</a></li>
-      <li><a href="#main-act">Main Activities</a></li>
-      <li><a href="admin/article.php">Articles</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#testi-m">Testimonial </a></li>
-    </ul>
-  </div>
-</nav>
-    <!--End list page -->
+      <!--Start list  page -->
+        <nav class="navbar navbar-inverse">
+     <div class="container-fluid">
+       <div class="navbar-header">
+         <a class="navbar-brand" >Konexio</a>
+       </div>
+       <ul class="nav navbar-nav links">
+         <li class="active"><a href="index.php">Home</a></li>
+         <li><a href="#" data-value="">About Konexio</a></li>
+         <li><a href="#" data-value="team">Team</a></li>
+         <li><a href="#" data-value="our-partners">Partners</a></li>
+         <li><a href="#" data-value="main-act">Main Activities</a></li>
+         <li><a href="article.php">Articles</a></li>
+         <li><a href="#" data-value="contact">Contact</a></li>
+         <li><a href="#" data-value="testi-m">Testimonial </a></li>
+       </ul>
+     </div>
+   </nav>
+       <!--End list page -->
       <!--Start Inroduction  page -->
     <div class="about">
       <div  class="container">
@@ -46,13 +47,13 @@
          With the recent migrant crisis impacting Europe and the world on an unprecedented scale, our mission is to contribute to the process of integration of refugees into these communities through innovation and technology.
          Refugees face a number of tough challenges once their asylum status has been obtained, but one of the most critical and most burdensome problems for European nations medium to longer term will be that of economic integration through job opportunity.
          Our organization aims to tackle this by providing refugees with opportunities to learn and connect with through code.
-        </p> 
+        </p>
         <h3>The objectives of our organization are as follows :</h3>
         <p>
         * Teach fundamental concepts of web development through easy, interactive methods and online platforms.<br>
         * Empower our participants with professional opportunities<br>
         * Build a supportive community of individuals passionate about code and engaged in the tech community<br>
-        </p> 
+        </p>
       </div>
     </div>
     <hr>
@@ -124,7 +125,7 @@
                   <img class="img-circle" src="images/mio.jpg" alt="Suliman"  width="150" height="150"/>
                   <h4> Suliman ABDU</h4>
                   <p>
-                    Web developer with experience in PHP and technical skills in programming languages with specialization in back-end 
+                    Web developer with experience in PHP and technical skills in programming languages with specialization in back-end
                   </p>
                   <a href="https://github.com/solomongamid"><i class="fa fa-github-square fa-3x"></i></a>
                   <a href="https://www.linkedin.com/in/suliman-adul-525925118"><i class="fa fa-linkedin-square fa-3x"></i></a>
@@ -137,7 +138,7 @@
                   <img class="img-circle" src="images/dustin.png" alt="Jean"  width="150" height="150"/>
                   <h4> Dustin Coates</h4>
                   <p>
-                   Dustin is a software engineer and web development instructor. He's taught hundreds of non-technical students 
+                   Dustin is a software engineer and web development instructor. He's taught hundreds of non-technical students
                    technical topics on web development. From Texas, he now lives in Paris.
                   </p>
                   <a href="https://www.linkedin.com/in/dustincoates"><i class="fa fa-linkedin-square fa-3x"></i></a>
@@ -190,7 +191,7 @@
               <div class="row">
               <div class="col-xs-6">
                 <div class="par-img">
-                 <img src="images/picoulet.jpg" alt="" width="300" height="300"/> 
+                 <img src="images/picoulet.jpg" alt="" width="300" height="300"/>
                 </div>
               </div>
                <div class="col-xs-6">
@@ -213,15 +214,15 @@
       <div class="container-fluid text-center conta" id="contact">
       <div class="row">
         <div class="col-sm-6 ">
-          
+
           <h3>Call for Volunteers</h3>
           <h4>
             We are currently looking for volunteers to join our efforts!
           </h4>
           <h3>Guest speakers and instructors</h3>
           <h4>
-            Are you passionate about web development? Do you have coding projects or work as a developer? Come and share your experiences as a guest speaker! 
-            
+            Are you passionate about web development? Do you have coding projects or work as a developer? Come and share your experiences as a guest speaker!
+
           </4>
           <h3>Partnership building and fund development</h3>
           <h4>
@@ -289,7 +290,7 @@
       <!--End  media Contact  page -->
       <!--Start footer  page -->
       <footer>
-         All rights reserved to Elmardi & Suliman copyright© --2016
+        <b> All rights reserved to Elmardi & Suliman copyright© --2016</b>
       </footer>
       <!--End footer  page -->
    <script src="js/jquery-3.1.0.min.js"></script>
