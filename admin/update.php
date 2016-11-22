@@ -6,10 +6,10 @@
 	 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="path/to/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-	<link href="bootstrap3-wysihtml5.min.css" rel="stylesheet">
-	 <link rel="stylesheet" href="./material.min.css">
-   <link rel="stylesheet" href="css/article.css">
-      <script src="./material.min.js"></script>
+	<link href="../css/bootstrap3-wysihtml5.min.css" rel="stylesheet">
+	 <link rel="stylesheet" href="../css/material.min.css">
+   <link rel="stylesheet" href="../css/article.css">
+      <script src="../js/material.min.js"></script>
 
 </head>
 <body>
@@ -63,10 +63,10 @@ if (isset($_POST['submit'])) {
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="bootstrap3-wysihtml5.all.min.js"></script>
-    <script src="bootstrap3-wysihtml5.min.js"></script>
-    <script src="custom_image_and_upload_wysihtml5.js"></script>
-    <script src="jqueryupload.js"></script>
+    <script src="../js/bootstrap3-wysihtml5.all.min.js"></script>
+    <script src="../js/bootstrap3-wysihtml5.min.js"></script>
+    <script src="../js/custom_image_and_upload_wysihtml5.js"></script>
+    <script src="../js/jqueryupload.js"></script>
     <script type="text/javascript">
       $('#edittext').wysihtml5();
 
