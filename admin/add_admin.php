@@ -40,7 +40,7 @@
   <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="../index.php">Konexio</a>
+      <a class="navbar-brand" ><img style="max-width:100px; margin-top: -11px;" src="../images/logo3.png"></a>
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="index_admin.php">Home</a></li>
@@ -48,11 +48,33 @@
   </div>
 </nav>
 
+    <div class="admin">
+    <table align='center' class='mdl-data-table mdl-js-data-table'><thead><tr><th> ID </th><th>User email</th><th> User password </th><th> Delete user </th></tr></thead>
+   <?php
+      include("connect.php");
+      
+        
+      $sql1= "SELECT * FROM login";
+      $result1 = $conn->query($sql1);
+      while($row = $result1->fetch_assoc()){
+      
+           
+      echo " <tbody><tr><td>" . $row['id']. "</td><td>" . $row['email']. "</td><td>" . $row['password']. "</td><td><a onclick=\"return confirm('Are you sure?')\" href=\"deletadmin.php?id=".$row['id']."\">Delete</a></td>" ;  
+   
+
+        
+      } 
+      ?>
+      </tr></tbody>
+      </table>
+      </div>
+
+
  	 <div class="mdl-layout mdl-js-layout">
      <main class="mdl-layout__content">
       <div class="mdl-card mdl-shadow--6dp">
          <div class="mdl-card__title mdl-color--primary mdl-color-text--white">
-            <h2 class="mdl-card__title-text">Konexio</h2>
+            <h2 class="mdl-card__title-text"><img style="max-width:400px; " src="../images/logo0.png"></h2>
          </div>
          <div class="mdl-card__title mdl-color--primary mdl-color-text--white">
            <h2 class="mdl-card__title-text">Admin Page</h2>
@@ -71,7 +93,7 @@
                </div>
             
          </div>
-         <div class="mdl-card__actions mdl-card--border">
+         <div class="mdl-card__actions mdl-card--border" >
             <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" type="submit" name="submit" value=" Submit">Sumbit</button>
 
             </form>
@@ -79,9 +101,10 @@
          </div>
       </div>
      </main>
+
    </div>
 
-
+  
  
  </body>
  </html>

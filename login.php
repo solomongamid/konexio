@@ -1,5 +1,5 @@
 <?php
-  include 'connect.php';
+  include 'admin/connect.php';
 
   	
       // email and password sent from form 
@@ -33,7 +33,7 @@
      <main class="mdl-layout__content">
       <div class="mdl-card mdl-shadow--6dp">
          <div class="mdl-card__title mdl-color--primary mdl-color-text--white">
-            <h2 class="mdl-card__title-text">Konexio</h2>
+            <h2 class="mdl-card__title-text"><img style="max-width:600px; " src="images/logo0.png"></h2>
          </div>
          <div class="mdl-card__title mdl-color--primary mdl-color-text--white">
            <h2 class="mdl-card__title-text">Admin Page</h2>

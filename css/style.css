@@ -1,5 +1,8 @@
 body{
   background-color: rgb(28, 105, 134);
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
 }
 .artc{
         padding: 30px;
@@ -7,9 +10,9 @@ body{
 
 /*  Start  container-fluid  */
 .cont{
-  color: #FFF;
+  color: rgb(30, 120, 193);
   height: 570px;
-  background-image: url(../images/cods.jpg);
+  background-image: url(../images/logo0.png);
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -142,7 +145,6 @@ body{
   position: relative;
   text-align: center;
   padding: 60px 0;
-  margin: 30px 0;
 }
 .testim h2{
   font-size: 40px;
@@ -194,8 +196,6 @@ border-radius: 55%;
 }
 #go-top:hover {
   background-color:#8000ff;
-}
-#go-top.show {
 }
 #go-top i.fa {
   font-size: 40px;

@@ -13,17 +13,16 @@
   <body>
     <!--Start first page -->
     <div class="cont">
-          <h1 align="center"> KONEXIO </h1>
-          <h2 align="center">Connecting the world together through code</h2>
-          <h4 align="center">Welcoming refugees into the community through tech</h4>
-          <img src="../images/backg.jpg" width="100" height="100" alt="logo" class="img-responsive center-block"/>
+          <img src="../images/logo2.png" width="300" height="100" alt="logo" class="img-responsive center-block"/>
+          <h1 align="center">Connecting the world together through code</h1>
+          <h3 align="center">Welcoming refugees into the community through tech</h3>
         </div>
       <!--End first page -->
     <!--Start list  page -->
      <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" >Konexio</a>
+      <a class="navbar-brand" ><img style="max-width:100px; margin-top: -11px;" src="../images/logo3.png" alt="logo" ></a>
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="../index.php">Home</a></li>

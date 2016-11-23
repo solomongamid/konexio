@@ -25,7 +25,7 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="../index.php">Konexio</a>
+      <a class="navbar-brand" ><img style="max-width:100px; margin-top: -11px;" src="../images/logo3.png"></a>
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="index_admin.php">Home</a></li>
